@@ -10,6 +10,10 @@ background-color: white;
 width: 41%;
 margin: auto;
 }
+img {
+    width: 100%;
+    padding: 10px;
+}
 h1,
 h2,
 h3 {
@@ -45,4 +49,14 @@ td {
 
 tr {
     border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 426px) {
+    #Main-Container { 
+        width: 100%;
+    }
+img {
+    width: 100%;
+    padding: 10px;
+}
 }
